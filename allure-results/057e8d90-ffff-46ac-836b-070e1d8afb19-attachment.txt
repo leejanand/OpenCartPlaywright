@@ -1,0 +1,6 @@
+Exception occurred while clicking 'Search': Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('#search button[type="button"]')
+    - waiting for" http://localhost/opencart/upload/index.php?route=product/search&language=en-gb&search=MacBook" navigation to finish...
+    - navigated to "http://localhost/opencart/upload/index.php?route=product/search&language=en-gb&search=MacBook"
+
