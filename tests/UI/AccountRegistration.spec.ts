@@ -12,10 +12,10 @@
  */
 
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-import { RegistrationPage } from '../pages/RegistrationPage';
-import { RandomDataUtil } from '../utils/randomDataGenerator';
-import { TestConfig } from '../test.config';
+import { HomePage } from '../../pages/HomePage';
+import { RegistrationPage } from '../../pages/RegistrationPage';
+import { RandomDataUtil } from '../../utils/randomDataGenerator';
+import { TestConfig } from '../../test.config';
 
 let homePage: HomePage;
 let registrationPage: RegistrationPage;

@@ -14,11 +14,11 @@
  */
 
 import { test, expect } from '@playwright/test';
-import { TestConfig } from '../test.config';
-import { HomePage } from '../pages/HomePage';
-import { LoginPage } from '../pages/LoginPage';
-import { MyAccountPage } from '../pages/MyAccountPage';
-import { LogoutPage } from '../pages/LogoutPage';
+import { TestConfig } from '../../test.config';
+import { HomePage } from '../../pages/HomePage';
+import { LoginPage } from '../../pages/LoginPage';
+import { MyAccountPage } from '../../pages/MyAccountPage';
+import { LogoutPage } from '../../pages/LogoutPage';
 
 // Declare shared variables
 let config: TestConfig;

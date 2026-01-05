@@ -1,0 +1,11 @@
+{
+  bookingid: 4729,
+  booking: {
+    firstname: 'Elody',
+    lastname: 'Farrell',
+    totalprice: 800,
+    depositpaid: false,
+    bookingdates: { checkin: '2026-01-05', checkout: '2026-01-10' },
+    additionalneeds: 'super bowls'
+  }
+}

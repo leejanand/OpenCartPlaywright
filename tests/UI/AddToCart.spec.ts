@@ -15,10 +15,10 @@
  */
 
 import { test, expect } from '@playwright/test';
-import { TestConfig } from '../test.config';
-import { HomePage } from '../pages/HomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { ProductPage } from '../pages/ProductPage';
+import { TestConfig } from '../../test.config';
+import { HomePage } from '../../pages/HomePage';
+import { SearchResultsPage } from '../../pages/SearchResultsPage';
+import { ProductPage } from '../../pages/ProductPage';
 
 // Shared instances
 let config: TestConfig;

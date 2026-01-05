@@ -11,9 +11,9 @@
  */
 
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-import { SearchResultsPage } from '../pages/SearchResultsPage';
-import { TestConfig } from '../test.config';
+import { HomePage } from '../../pages/HomePage';
+import { SearchResultsPage } from '../../pages/SearchResultsPage';
+import { TestConfig } from '../../test.config';
 
 // Declare reusable variables
 let config: TestConfig;
